@@ -26,7 +26,7 @@ ContainerShip Developers - developers@containership.io
 Instantiate a new tesserarius object.
 
 ```javascript
-var Tesseraraius = require("tesserarius");
+var Tesserarius = require("tesserarius");
 var tesserarius = new Tesserarius();
 ```
 
