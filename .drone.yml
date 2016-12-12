@@ -1,8 +1,9 @@
 build:
-  image: library/node:5.6.0
+  image: library/node:6.9.1
   commands:
     - npm install
     - npm test
+    - npm run lint
 
 notify:
   slack:
