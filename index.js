@@ -108,16 +108,16 @@ class Tesserarius {
         }
     }
 
-    create_chain(chain, callback) {
-        iptables.create_chain(chain, callback);
+    create_chain(chain, options, callback) {
+        iptables.create_chain(chain, options, callback);
     }
 
-    flush(chain, callback) {
-        iptables.flush(chain, callback);
+    flush(chain, options, callback) {
+        iptables.flush(chain, options, callback);
     }
 
-    set_policy(chain, policy, callback) {
-        iptables.policy(chain, policy, callback);
+    set_policy(chain, policy, options, callback) {
+        iptables.policy(chain, policy, options, callback);
     }
 
 }
